@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    Margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family:'poppins',sans-serif;
+}
+.Home{
+    min-height: 100vh;
+    background-color:rgb(44, 21, 5);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    overflow: hidden;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    font-size: 20px;
+    z-index: 99;
+}
+header h1{
+    color:rgb(228, 144, 34);
+    
+    
+
+}
+header nav a{
+    font-size:24px;
+    margin-left: 40px;
+    color: white;
+    transition: .3s;
+
+}
+
+header nav a:hover{
+    color:rgb(228, 144, 34);
+
+}
+.text-box{
+    width: 55%;
+}
+.text-box h1{
+    color:rgb(228, 144, 34);
+    font-size:85px;
+
+}
+.text-box h1:nth-child(2){
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+}
+.btn-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    position: relative;
+    color: white;
+    border: 2px solid rgb(228, 144, 34);
+    padding : 12px 40px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 0;
+    transition: .3s;
+}
+.btn:hover,
+.btn:nth-child(2):hover{
+    background-color:rgb(228, 144, 34);
+    box-shadow: 0 0 15px rgb(228, 144, 34);
+
+}
+
